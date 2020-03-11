@@ -14,3 +14,9 @@ mysql -u root -p --host 127.0.0.1 -P 4306 < initial.sql
 ```
 
 以上のコマンドで新しいデータベースとusersテーブルが作られます
+
+DBのdump
+
+```sh
+mysqldump -u root -p --host 127.0.0.1 -P 4306 sample > dump.sql
+```
